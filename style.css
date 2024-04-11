@@ -1,6 +1,66 @@
 @font-face {
     font-family: 'viking';
-    src: url('/font/VIKING.TTF') format('truetype');
+    src: url('/font/viking.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+body {
+    display: flex;
+}
+
+#hero {
+    flex: 1;
+    background-image: url(./media/resul-mentes-DbwYNr8RPbg-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    height: 44em;
+    box-shadow: -6px 20px 20px 2px #0793AD, -4px -20px 0 5px #E3F6F3, -10px 19px 6px 10px #0793AD;
+}
+
+img {
+    width: 5em;
+}
+
+#logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.herop {
+    font-family: 'viking';
+    color: #E3F6F3;
+    font-size: 75px;
+}
+
+#form {
+    flex: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+header {
+    background-color: #C3E2E4;
+}
+
+main {
+    background-color: #E3F6F3;
+}
+
+footer {
+    background-color: #C3E2E4;
+}
+
+button {
+    color: #E3F6F3;
+    background-color: #1E9BB3;
+}
+
+a {
+    color: #1E9BB3;
 }
