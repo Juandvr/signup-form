@@ -5,16 +5,21 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
 }
 
-#hero {
-    flex: 1;
+.hero {
     background-image: url(./media/resul-mentes-DbwYNr8RPbg-unsplash.jpg);
     background-size: cover;
     display: flex;
-    height: 44em;
+    height: 100vh;
+    width: 45%;
     box-shadow: -6px 20px 20px 2px #0793AD, -4px -20px 0 5px #E3F6F3, -10px 19px 6px 10px #0793AD;
 }
 
@@ -22,7 +27,7 @@ img {
     width: 5em;
 }
 
-#logo {
+.logo {
     display: flex;
     background-color: rgba(0, 0, 0, 0.373);
     height: 20%;
@@ -38,22 +43,30 @@ img {
     font-size: 75px;
 }
 
-#form {
-    flex: 1;
+.form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
 }
 
 header {
     background-color: #C3E2E4;
+    height: 35%;
+    padding: 20px;
 }
 
 main {
     background-color: #E3F6F3;
+    height: 30%;
+    padding: 20px;
 }
 
 footer {
     background-color: #C3E2E4;
+    height: 35%;
+    padding: 20px;
 }
 
 button {
